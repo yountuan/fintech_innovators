@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 from decouple import config
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -94,6 +95,8 @@ DATABASES = {
 
     }
 }
+
+DATABASES['default'] = dj_database_url.parse("postgres://yountuan:Dxer7ZjnlgA48tjyzXXMgPFXI4pMillO@dpg-cof842a1hbls7398f0bg-a.oregon-postgres.render.com/fintech_db")
 
 
 # Password validation
