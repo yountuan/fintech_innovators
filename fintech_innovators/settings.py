@@ -28,7 +28,6 @@ DEBUG = config('DEBUG')
 
 ALLOWED_HOSTS = ['*']
 AUTH_USER_MODEL = 'users.User'
-
 # Application definition
 
 INSTALLED_APPS = [

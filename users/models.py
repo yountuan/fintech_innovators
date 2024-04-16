@@ -4,6 +4,8 @@ from django.contrib.auth.base_user import BaseUserManager
 from django.utils.crypto import get_random_string
 
 
+
+
 class User(AbstractUser):
     email = models.EmailField(unique=True)
     customer_name = models.CharField(max_length=30)
