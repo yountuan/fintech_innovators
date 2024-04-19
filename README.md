@@ -7,7 +7,7 @@ Deploy is on: https://fintech-innovators-r04f.onrender.com
 Video Presentations is on: https://drive.google.com/drive/folders/1BR_qLzhz5P1JVFfpLAKOqZHvO-NuY4hR?usp=share_link
 
 
-<p align="center">
+<p>
 In the main page you will just see ERROR 404 Because I turned off Debug=True, so that other people will not see logs unless you are a developer that works on this project.
   <img src="images/Screenshot 2024-04-16 at 19.47.29.png" width="350" title="hover text">
   <img src="images/Screenshot 2024-04-16 at 19.47.11.png" width="350" alt="accessibility text">
