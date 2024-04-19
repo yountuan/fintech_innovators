@@ -8,17 +8,22 @@ Video Presentations is on: https://drive.google.com/drive/folders/1BR_qLzhz5P1JV
 
 
 <p align="center">
+In the main page you will just see ERROR 404 Because I turned off Debug=True, so that other people will not see logs unless you are a developer that works on this project.
   <img src="images/Screenshot 2024-04-16 at 19.47.29.png" width="350" title="hover text">
   <img src="images/Screenshot 2024-04-16 at 19.47.11.png" width="350" alt="accessibility text">
+
+Here are the screenshots from swagger documentation, that shows the api endpoints for Payment application and Users application.
   <img src="images/Screenshot 2024-04-16 at 20.46.08.png" width="350" alt="accessibility text">
   <img src="images/Screenshot 2024-04-16 at 20.46.29.png" width="350" alt="accessibility text">
   <img src="images/Screenshot 2024-04-16 at 20.55.14.png" width="350" alt="accessibility text">
   <img src="images/Screenshot 2024-04-16 at 20.55.24.png" width="350" alt="accessibility text">
+You can see in the pictures below the tables in both Payments and Users app. It is shown below which fields you should fill and which data types they should be.
   <img src="images/Screenshot 2024-04-16 at 20.55.28.png" width="350" alt="accessibility text">
   <img src="images/Screenshot 2024-04-16 at 20.55.30.png" width="350" alt="accessibility text">
   <img src="images/Screenshot 2024-04-16 at 20.55.35.png" width="350" alt="accessibility text">
   <img src="images/Screenshot 2024-04-16 at 20.55.41.png" width="350" alt="accessibility text">
   <img src="images/Screenshot 2024-04-16 at 20.55.44.png" width="350" alt="accessibility text">
+And if could notice you should authenticate with JWT token which you can obtain from endpoints.
   <img src="images/Screenshot 2024-04-16 at 20.55.50.png" width="350" alt="accessibility text">
   <img src="images/Screenshot 2024-04-16 at 20.55.59.png" width="350" alt="accessibility text">
 
