@@ -23,6 +23,8 @@ from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from rest_framework import permissions
 from django.conf import settings
+from rest_framework.urlpatterns import format_suffix_patterns
+from payments import views
 
 
 schema_view = get_schema_view(
@@ -37,11 +39,12 @@ urlpatterns = [
     path('api/v1/users/', include('users.urls')),
     path('api/v1/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/v1/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    path('api/v1/payments/', include('payments.urls')),
     path('docs/', schema_view.with_ui('swagger', cache_timeout=0),name='schema-swagger-ui'),
+    path('scheme/', views.Scheme_API.as_view()),
+    path('transactions/', views.Transactions_API.as_view()),
+    path('balances/', views.Balances_API.as_view()),
 
 ]
-
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
