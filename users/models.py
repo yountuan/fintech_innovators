@@ -7,7 +7,7 @@ class UserManager(BaseUserManager):
     def _create_user(self, email, password, **extra_fields):
         if not email:
             raise ValueError('Email field is required')
-        email = self.normalize_email(email)
+        email = self.normalize_email(email) 
         user = self.model(email=email, **extra_fields)
         user.set_password(password)
         user.save()
@@ -43,7 +43,6 @@ class User(AbstractUser):
 
 class Account(models.Model):
     """Accounts Database Table"""
-
     id = models.BigAutoField(primary_key=True)
     customer_name = models.ForeignKey(User, on_delete=models.CASCADE)
     card_id = models.CharField(max_length=20, unique=True)

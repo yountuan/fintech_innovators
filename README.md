@@ -4,7 +4,7 @@
 
 ### Deploy is on: https://fintech-innovators-r04f.onrender.com
 
-### Video Presentations is on: https://drive.google.com/drive/folders/1BR_qLzhz5P1JVFfpLAKOqZHvO-NuY4hR?usp=share_link
+### Video Presentations is on: https://drive.google.com/drive/folders/1BR_qLzhz5P1JVFfpLAKOqZHvO-NuY4hR?usp=sharing
 
 In the main page you will just see ERROR 404 Because first of all, I dont have anything in landing page, and second of all, I turned Debug=False, so that other people will not see logs unless you are a developer that works on this project.![In the main page you will just see ERROR 404 Because I turned off Debug=True, so that other people will not see logs unless you are a developer that works on this project.](<images/Screenshot 2024-04-16 at 19.47.29.png>) 
 ![alt text](<images/Screenshot 2024-04-16 at 19.47.11.png>)
